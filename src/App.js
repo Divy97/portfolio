@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import ProductList from "./productList/ProductList";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Intro />
       <ProductList />
+      <Contact />
     </div>
   );
 };
